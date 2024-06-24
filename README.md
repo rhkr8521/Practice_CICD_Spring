@@ -1,4 +1,13 @@
 # Spring Boot CI/CD - 24.06.24 (Vacation Study)
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![SpringBoot](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
 ### What is CI/CD? 
 - CI/CD는 지속적 통합(Continuous Integration) 및 지속적 배포(Continuous Deployment)를 의미하며, 소프트웨어 개발 라이프사이클을 간소화하고 가속화하는 것을 목표로 한다.
 - CI는 언제나 지속적 통합을 의미하며, 코드 변경 사항을 다시 공유 분기로 더 빈번하게 병합하는 것을 용이하게 하는 개발자용 자동화 프로세스이다.
