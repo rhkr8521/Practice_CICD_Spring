@@ -108,7 +108,7 @@ jobs:
     - name: docker Hub push
       run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/vacation_cicd_action
 ```
-## 5. Install Docker, DockerHub to EC2
+## 5. Install Docker, Docker Compose to EC2
 1. First Ubuntu System Package Update
 ```
 sudo apt-get update
@@ -157,7 +157,7 @@ docker-compose --version
 ```
 If you see "Docker Compose version : [version]," it means the installation was successful.
 
-## Setting GitHub Action Runner (self-hosted runner)
+## 6. Setting GitHub Action Runner (self-hosted runner)
 1. Goto Github Repository -> Settings -> Code and automation -> Actions -> Runners -> New self-hosted runner
 2. Execute all commands up to the ./run.sh command in the Configure section on the EC2 instance.
 3. If you encounter the error message "Must not run with sudo" while executing the ./config.sh command, please enter the following command and try again.
