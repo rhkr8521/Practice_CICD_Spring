@@ -171,7 +171,7 @@ sudo ./svc.sh install
 sudo ./svc.sh start
 ```
 
-## FINAL. Setting GitHub Action - CD
+## 6. FINAL - Setting GitHub Action - CD
 1. Edit .github/workflows/gradle.yml
 2. Add gradle.yml Content
 ```
